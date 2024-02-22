@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title {
+  text-align: center;
+  color: green;
+}
+
+#item-title-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  text-align: center;
+  padding-right: 10px;
+  background-color: blanchedalmond;
+}
+.item-title {
+  color: red;
+}
+#grocery-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+.grocery-item {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 35vh;
+  border: 1px solid;
+  background-color: gray;
+}
+.list-title {
+  padding-left: 10px;
+}
+.grocery-item-image {
+  display: flex;
+  height: 30vh;
+  width: 35vh;
+}
