@@ -1,0 +1,19 @@
+.gallery-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.image-gallery {
+  height: 35vh;
+  width: calc(30.33% - 20px);
+  margin: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+}

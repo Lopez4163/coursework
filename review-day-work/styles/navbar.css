@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar-ul {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.navabr-li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+}
+.navabr-li a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+.current-page {
+  display: none;
+}

@@ -1,0 +1,23 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+}
+.intro-paragraph {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 80vh;
+}
+.homepage-gif {
+  margin-top: 40px;
+  height: 300px;
+}
